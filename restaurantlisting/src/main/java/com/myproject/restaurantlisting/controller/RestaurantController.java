@@ -23,4 +23,6 @@ public class RestaurantController {
         List<RestaurantDTO> allRestaurants = restaurantService.findAllRestaurants();
         return new ResponseEntity<>(allRestaurants, HttpStatus.OK);
     }
+
+    
 }
