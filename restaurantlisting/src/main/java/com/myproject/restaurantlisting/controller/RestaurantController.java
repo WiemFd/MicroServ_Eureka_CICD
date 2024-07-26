@@ -27,4 +27,9 @@ public class RestaurantController {
         RestaurantDTO restaurantAdded = restaurantService.addRestaurantInDB(restaurantDTO);
         return new ResponseEntity<>(restaurantAdded, HttpStatus.CREATED);
     }
+
+    @GetMapping("/fetchById/{id}")
+    public ResponseEntity<RestaurantDTO> findRestaurantById(@PathVariable Integer id) {
+        return restaurantService.fetchRestaurantById(id);
+    }
 }
