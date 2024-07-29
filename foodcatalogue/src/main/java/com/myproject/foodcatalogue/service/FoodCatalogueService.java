@@ -5,6 +5,7 @@ import com.myproject.foodcatalogue.mapper.FoodItemMapper;
 import com.myproject.foodcatalogue.repo.FoodItemRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import com.myproject.foodcatalogue.entity.FoodItem;
 
 @Service
 public class FoodCatalogueService {
