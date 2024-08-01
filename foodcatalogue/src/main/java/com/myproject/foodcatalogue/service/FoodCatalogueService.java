@@ -44,7 +44,7 @@ public class FoodCatalogueService {
     }
 
     private Restaurant fetchRestaurantDetailsFromRestaurantMS(Integer restaurantId) {
-       return restTemplate.getForObject("http://RESTAURANT-SERVICE/fetchById/"+restaurantId, Restaurant.class);
+       return restTemplate.getForObject("http://RESTAURANT-SERVICE/restaurant/fetchById/"+restaurantId, Restaurant.class);
 
     }
 
