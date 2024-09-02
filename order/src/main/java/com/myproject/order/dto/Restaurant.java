@@ -1,6 +1,6 @@
 package com.myproject.order.dto;
 
-import lombok.Data
+import lombok.Data;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 

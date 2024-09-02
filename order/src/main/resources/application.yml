@@ -10,9 +10,9 @@ spring:
   application:
     name: ORDER-SERVICE
   datasource:
-    url: mongodb://localhost:27017/orderdb
+    url: mongodb://localhost:27017/test
     host: localhost
     port: 27017
-    database: orderdb
+    database: test
     repositories:
       enabled: true

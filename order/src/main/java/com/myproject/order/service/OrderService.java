@@ -3,6 +3,7 @@ package com.myproject.order.service;
 import com.myproject.order.dto.OrderDTO;
 import com.myproject.order.dto.OrderDTOfromFront;
 import com.myproject.order.dto.UserDTO;
+import com.myproject.order.entity.Order;
 import com.myproject.order.mapper.OrderMapper;
 import com.myproject.order.repo.OrderRepo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +19,7 @@ public class OrderService {
     SequenceGenerator sequenceGenerator;
 
     @Autowired
-    RestTemplate;
+    RestTemplate restTemplate;
 
     public OrderDTO saveOrderInDB(OrderDTOfromFront orderDetails) {
 

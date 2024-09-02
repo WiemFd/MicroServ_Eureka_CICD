@@ -1,5 +1,6 @@
 package com.myproject.order.mapper;
 import com.myproject.order.dto.OrderDTO;
+import com.myproject.order.entity.Order;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

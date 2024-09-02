@@ -9,7 +9,6 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-import java.util.List;
 
 public class OrderDTO {
     private Integer orderId;

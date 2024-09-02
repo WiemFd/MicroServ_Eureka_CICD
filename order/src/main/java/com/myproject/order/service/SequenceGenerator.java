@@ -24,7 +24,7 @@ public class SequenceGenerator {
                 Sequence.class);
         return counter.getSequence();
 
-        )
+        
 
     }
 }
